@@ -11,7 +11,7 @@ class triangle: public shape
 	public:
 		void fun()
 		{
-		cout<<"The value is:-"<<endl;
+		cout<<"This is abstract class"<<endl;
 }
 };
 int main()

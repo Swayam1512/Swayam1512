@@ -1,22 +1,17 @@
 #include<iostream>
 using namespace std;
-class Car
+int sum(int a, int b)
 {
-	public:
-		void car(string x)
-		{
-			cout<<x<<endl;
-		}
-		void car(string x,string y)
-		{
-			cout<<x<<" "<<y<<endl;
-		}
-};
+	return a+b;
+}
+int sum(int a, int b, int c)
+{
+	return a+b+c;
+}
 int main()
-{
-	Car c;
-	c.car("supra");
-	c.car("fortuner");
-	return 0;
+{	
+	cout<<"Addition is:"<<sum(5,7)<<endl;
+	cout<<"Addition is:"<<sum(5,7,3)<<endl;
+return 0;
 }
 

@@ -11,7 +11,9 @@ class Employee
 	
 void display()
 {
-	cout<<"Id:-"<<this ->id<<endl<<"Name:-"<<this ->name<<endl<<"Salary:-"<<this ->salary<<endl;
+	cout<<"Id:-"<<this ->id<<endl;
+	cout<<"Name:-"<<this ->name<<endl;
+	cout<<"Salary:-"<<this ->salary<<endl;
 }
 };
 int main()
